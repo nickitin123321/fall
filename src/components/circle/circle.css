@@ -1,0 +1,37 @@
+@keyframes bot {
+  25% {
+    transform: translateY(200px);
+  }
+  50% {
+    transform: translateX(-200px);
+  }
+  75%{
+    transform: translateX(200px);
+  }
+  100%{
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes top {
+  25% {
+    transform: translateY(-200px);
+  }
+  50%{
+    transform: translateX(200px);
+  }
+  75%{
+    transform: translateX(-200px);
+  }
+  100%{
+    transform: translateX(200px);
+  }
+}
+
+.circleTop {
+  animation: top 1s infinite;
+}
+
+.circleBot {
+  animation: bot 1s infinite;
+}
